@@ -1,0 +1,112 @@
+/* Estilo general y tipografía */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contenedor principal para centrar el contenido */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2rem;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+/* Estilo del logo y el encabezado */
+.logo-header {
+    width: 100%;
+    text-align: center;
+    padding: 3rem 0 2rem;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+/* Títulos y texto */
+h1, h2 {
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+
+.tagline {
+    font-style: italic;
+    text-align: center;
+    margin-top: 0;
+    color: #666;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 1rem; /* Ajuste para el texto de la política de privacidad */
+}
+
+/* Secciones de información */
+.section-info {
+    margin-bottom: 2rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-item .icon {
+    font-size: 1.5rem;
+}
+
+/* Listas y enlaces */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #333;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #000;
+}
+
+/* Pie de página */
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    color: #888;
+    border-top: 1px solid #eee;
+    margin-top: auto;
+}
